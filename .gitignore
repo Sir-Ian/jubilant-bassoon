@@ -205,3 +205,44 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.ipynb_backup/
+
+# ---- Datasets ----
+# Don't track large raw datasets (upload via .git-lfs if needed)
+data/raw/
+data/private/
+*.csv
+*.parquet
+*.xlsx
+*.json
+!data/sample_*.csv   # allow small sample data for demo
+
+# ---- Environment / Virtualenv ----
+.env
+.venv
+venv/
+ENV/
+*.env
+*.DS_Store
+
+# ---- Model Artifacts ----
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.onnx
+
+# ---- IDE / System ----
+.vscode/
+.idea/
+__pycache__/
+*.log
+
+# ---- Notebooks outputs ----
+# Strip large cell outputs before commit; still safe for small examples
+*.nbconvert.ipynb
