@@ -1,0 +1,6 @@
+# Core data wrangling dependencies
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Optional visualization used for QA plots
+matplotlib>=3.8.0

@@ -242,7 +242,7 @@ checkpoints/
 .idea/
 __pycache__/
 *.log
-
+data/
 # ---- Notebooks outputs ----
 # Strip large cell outputs before commit; still safe for small examples
 *.nbconvert.ipynb
